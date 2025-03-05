@@ -4,8 +4,11 @@ public class ReviewAnalysis {
 
 
     /** Initializes allReviews to contain all the Review objects to be analyzed */
-    public ReviewAnalysis() {
-        /* implementation not shown */ }
+    public ReviewAnalysis(Reviews[] reviews) 
+    {
+        allReviews = reviews;
+        /* implementation not shown */ 
+    }
 
 
     /**
