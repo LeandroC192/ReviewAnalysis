@@ -1,8 +1,8 @@
 public class Main
 {
-    public static void main(Strings[] args)
+    public static void main(String[] args)
     {
-        Reviews[] reviews =
+        Review[] reviews =
         {
             new Review(4, "Good! Thx"),
             new Review(3, "Ok site"),
@@ -11,5 +11,8 @@ public class Main
             new Review(3, ""),
         };
         ReviewAnalysis r = new ReviewAnalysis(reviews);
+
+        System.out.println(r.getAverageRating());
+        System.out.println(r.collectComments());
     }
 }
